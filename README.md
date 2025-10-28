@@ -1,6 +1,6 @@
 # Oladipupo Portfolio Website
 
-A modern, responsive portfolio website built with Next.js 14, TypeScript, and Tailwind CSS. Showcasing professional work, skills, and projects with smooth animations and interactive elements.
+A modern, responsive portfolio website built with Next.js 14, TypeScript, and Tailwind CSS. Showcasing AI Product Leadership expertise, business management skills, and innovative AI-augmented workforce solutions with smooth animations and interactive elements.
 
 ## 🚀 Live Demo
 
@@ -8,6 +8,8 @@ Visit the live portfolio: [https://oladipupo-portfolio.vercel.app](https://oladi
 
 ## ✨ Features
 
+- **AI Product Leadership Showcase**: Highlights expertise in AI-augmented workforce solutions
+- **QALLOUS.AI Integration**: Direct links to AI startup platform and GitHub repository
 - **Modern Design**: Clean, professional layout with smooth animations
 - **Responsive**: Fully responsive design for mobile, tablet, and desktop
 - **Interactive Elements**: Hover effects, smooth scrolling, and animated components
@@ -26,6 +28,18 @@ Visit the live portfolio: [https://oladipupo-portfolio.vercel.app](https://oladi
 - **Icons**: React Icons
 - **Fonts**: Geist Sans & Mono
 - **Deployment**: Vercel
+
+## 🚀 Featured Projects
+
+### [QALLOUS.AI Platform](https://qallous-ai-website.vercel.app/)
+AI-augmented workforce platform delivering 10x performance improvements through human-AI collaboration. Enterprise website showcasing AI partnerships and workforce solutions.
+
+**GitHub**: [cubenotary-hub/qallous-ai-website](https://github.com/cubenotary-hub/qallous-ai-website)
+
+### [Oladipupo Portfolio](https://oladipupo-portfolio.vercel.app/)
+Modern Next.js portfolio website showcasing AI Product Leadership expertise, built with TypeScript, Tailwind CSS, and Framer Motion animations.
+
+**GitHub**: [cubenotary-hub/oladipupo-portfolio](https://github.com/cubenotary-hub/oladipupo-portfolio)
 
 ## 📁 Project Structure
 

@@ -9,49 +9,49 @@ export default function Home() {
   const [showMoreProjects, setShowMoreProjects] = useState(false);
 
   const skills = [
-    { name: 'Next.js', level: 90 },
-    { name: 'React', level: 95 },
-    { name: 'TypeScript', level: 85 },
-    { name: 'JavaScript', level: 90 },
-    { name: 'Tailwind CSS', level: 88 },
-    { name: 'Node.js', level: 80 },
-    { name: 'Python', level: 75 },
-    { name: 'Git', level: 85 },
-    { name: 'MongoDB', level: 70 },
-    { name: 'PostgreSQL', level: 75 },
-    { name: 'AWS', level: 65 }
+    { name: 'AI Strategy', level: 95 },
+    { name: 'Product Leadership', level: 90 },
+    { name: 'Digital Transformation', level: 88 },
+    { name: 'Agile Coaching', level: 85 },
+    { name: 'Business Management', level: 92 },
+    { name: 'AI Implementation', level: 90 },
+    { name: 'Twilio Integration', level: 85 },
+    { name: 'Enterprise Automation', level: 88 },
+    { name: 'Team Leadership', level: 90 },
+    { name: 'Process Optimization', level: 87 },
+    { name: 'AI-Augmented Workforce', level: 95 }
   ];
 
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'Full-stack e-commerce solution with React, Node.js, and MongoDB',
+      title: 'QALLOUS.AI Platform',
+      description: 'AI-augmented workforce platform delivering 10x performance improvements through human-AI collaboration. Enterprise website showcasing AI partnerships and workforce solutions.',
       image: '/api/placeholder/400/250',
-      tech: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+      tech: ['AI Strategy', 'Product Leadership', 'Digital Transformation', 'Enterprise Automation'],
+      liveUrl: 'https://qallous-ai-website.vercel.app/',
+      githubUrl: 'https://github.com/cubenotary-hub/qallous-ai-website'
+    },
+    {
+      title: 'Oladipupo Portfolio',
+      description: 'Modern Next.js portfolio website showcasing AI Product Leadership expertise, built with TypeScript, Tailwind CSS, and Framer Motion animations.',
+      image: '/api/placeholder/400/250',
+      tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
+      liveUrl: 'https://oladipupo-portfolio.vercel.app/',
+      githubUrl: 'https://github.com/cubenotary-hub/oladipupo-portfolio'
+    },
+    {
+      title: 'AI-Augmented Workforce Solutions',
+      description: 'Led implementation of AI-augmented workflows for Fortune 500 companies, resulting in 10x faster project delivery and automated business processes.',
+      image: '/api/placeholder/400/250',
+      tech: ['AI Implementation', 'Process Automation', 'Performance Optimization', 'Business Intelligence'],
       liveUrl: '#',
       githubUrl: '#'
     },
     {
-      title: 'Task Management App',
-      description: 'Collaborative task management tool with real-time updates',
+      title: 'Enterprise Communication Systems',
+      description: 'Designed and implemented Twilio-powered communication automation and AI-powered customer service solutions for enterprise clients.',
       image: '/api/placeholder/400/250',
-      tech: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL'],
-      liveUrl: '#',
-      githubUrl: '#'
-    },
-    {
-      title: 'Weather Dashboard',
-      description: 'Interactive weather dashboard with location-based forecasts',
-      image: '/api/placeholder/400/250',
-      tech: ['React', 'Chart.js', 'OpenWeather API'],
-      liveUrl: '#',
-      githubUrl: '#'
-    },
-    {
-      title: 'Portfolio Website',
-      description: 'Modern portfolio website built with Next.js and Tailwind CSS',
-      image: '/api/placeholder/400/250',
-      tech: ['Next.js', 'Tailwind CSS', 'Framer Motion'],
+      tech: ['Twilio Integration', 'AI Implementation', 'Process Optimization', 'Business Management'],
       liveUrl: '#',
       githubUrl: '#'
     }
@@ -60,31 +60,31 @@ export default function Home() {
   const aboutQuestions = [
     {
       question: 'Who am I?',
-      answer: 'I\'m Oladipupo, a passionate software developer with expertise in modern web technologies. I love creating innovative solutions and bringing ideas to life through code.'
+      answer: 'I\'m Oladipupo, an Innovative AI Product Leader and Certified Agile Coach with 8+ years of experience driving digital transformation through cutting-edge AI solutions. I specialize in building AI-augmented workforce platforms and implementing enterprise-grade automation.'
     },
     {
-      question: 'How long have I been in tech?',
-      answer: 'I\'ve been working in software development for over 3 years, continuously learning and adapting to new technologies and best practices.'
+      question: 'What is QALLOUS.AI?',
+      answer: 'QALLOUS.AI is my startup that delivers AI-augmented workforce solutions, combining human expertise with AI colleagues to achieve 10x performance improvements. We specialize in Twilio-powered communication systems and enterprise automation.'
     },
     {
       question: 'What do I do?',
-      answer: 'I specialize in full-stack web development, creating responsive applications using React, Next.js, Node.js, and modern databases.'
+      answer: 'I lead AI product strategy, implement digital transformation initiatives, and coach teams on Agile methodologies. My expertise spans AI implementation, business management, and creating human-AI collaboration frameworks.'
     },
     {
       question: 'What inspires me?',
-      answer: 'I\'m inspired by the endless possibilities of technology to solve real-world problems and improve people\'s lives through innovative software solutions.'
+      answer: 'I\'m inspired by the potential of AI to augment human capabilities and create superhuman performance. The future of work lies in seamless human-AI collaboration that delivers unprecedented results.'
     },
     {
       question: 'What am I learning?',
-      answer: 'Currently exploring advanced React patterns, cloud architecture with AWS, and machine learning fundamentals to expand my technical capabilities.'
+      answer: 'Currently exploring advanced AI workforce optimization, enterprise automation patterns, and next-generation AI collaboration frameworks to push the boundaries of human-AI partnership.'
     },
     {
       question: 'What\'s my goal?',
-      answer: 'My goal is to become a senior full-stack developer and eventually lead technical teams while contributing to open-source projects.'
+      answer: 'My goal is to revolutionize how businesses operate by implementing AI-augmented workforce solutions that deliver 10x performance improvements while maintaining human creativity and strategic thinking.'
     },
     {
-      question: 'What\'s my personality outside tech?',
-      answer: 'I enjoy reading, playing chess, hiking, and exploring new cultures through travel. I believe in continuous learning and personal growth.'
+      question: 'What\'s my personality outside work?',
+      answer: 'I enjoy strategic thinking, exploring emerging technologies, and mentoring others in AI implementation. I believe in continuous innovation and building solutions that create meaningful impact.'
     }
   ];
 
@@ -143,15 +143,15 @@ export default function Home() {
               transition={{ duration: 0.8 }}
               className="mb-8"
             >
-              <h1 className="text-5xl md:text-7xl font-bold text-slate-800 dark:text-white mb-4">
-                Hi, I'm{' '}
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
-                  Oladipupo
-                </span>
-              </h1>
-              <p className="text-xl md:text-2xl text-slate-600 dark:text-slate-300 mb-8">
-                A passionate software developer 💻 passionate about transforming concepts 💡 into sleek, interactive designs 🎨⚡
-              </p>
+                  <h1 className="text-5xl md:text-7xl font-bold text-slate-800 dark:text-white mb-4">
+                    Hi, I'm{' '}
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
+                      Oladipupo
+                    </span>
+                  </h1>
+                  <p className="text-xl md:text-2xl text-slate-600 dark:text-slate-300 mb-8">
+                    AI Product Leader & Business Management Expert 🤖💼 Driving digital transformation through AI-augmented workforce solutions ⚡🚀
+                  </p>
             </motion.div>
             
             <motion.div
@@ -237,8 +237,8 @@ export default function Home() {
                     >
                       <FaRocket />
                       Live
-                    </a>
-                    <a
+          </a>
+          <a
                       href={project.githubUrl}
                       className="flex items-center gap-2 text-slate-600 dark:text-slate-300 hover:text-slate-800 dark:hover:text-white transition-colors"
                     >
